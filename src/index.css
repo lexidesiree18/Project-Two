@@ -1,0 +1,31 @@
+body{ 
+    background-image: linear-gradient( white, #fec5bb);
+    font-family: "Karla"}
+#tasks {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px
+}
+ #container {
+     margin-top: auto;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FEBAAF;
+    color: white;
+    box-shadow: 6px 2px 3px #fdaa9b88;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+#container input{
+    position: relative;
+}
+#add-task {
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px
+}

@@ -1,0 +1,35 @@
+!DOCTYPE html>
+<html>
+    <head>
+        <link rel= "stylesheet" href="./index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Karla:wght@300;400;700&display=swap" rel="stylesheet">
+    </head>
+    <body onload = "loadTasks()">
+        <div id= "container"> 
+            <h1>Lexi's List</h1>
+            <div id="tasks">
+                <label>
+                <input type= "checkbox" id= "go-groceryshopping">
+                Go Grocery Shopping
+            </label>
+                <label>
+                <input type= "checkbox" id= "feed-bunny">
+                Feed Rose</label>
+                <label>
+                    <input type= "checkbox" id= "read-pages">
+                    Read Modules</label>
+                <label>
+                    <input type= "checkbox" id= "vaccume">
+                    Vaccume the House</label>
+                    <div id="add-task">
+                        <input type = "text" placeholder= "New Task" id= "new-task">
+                        <input type = "button" value ="Add Task" onclick="addTask()">
+                    </div>
+            </div>
+        </div>
+       
+      <script src= "./index.js"></script>
+     </body>
+</html>
